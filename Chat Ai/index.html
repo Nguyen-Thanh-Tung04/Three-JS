@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT API</title>
+    <!-- Liên kết CSS của Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script src="ChatGPT.js?v=12"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- CSS tùy chỉnh -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">Hỏi Đáp TUNG AI</div>
+    <div class="chat-box" id="chatBox">
+        <!-- Tin nhắn sẽ được hiển thị ở đây -->
+    </div>
+    <div class="input-group">
+        <textarea class="form-control" id="userInput" rows="1" placeholder="Nhập câu hỏi của bạn..."></textarea>
+        <div class="input-group-append">
+            <button class="btn btn-primary" type="button" id="sendButton">Gửi</button>
+        </div>
+    </div>
+</div>
+
+<!-- Liên kết JS -->
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+<script src="chat.js"></script> <!-- File JS tách riêng -->
+</body>
+</html>
